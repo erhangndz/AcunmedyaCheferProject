@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.35821.62 d17.14
+VisualStudioVersion = 17.14.35821.62
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chefer.API", "Chefer.API\Chefer.API.csproj", "{1483E794-0D9A-4610-BA97-BAA0FBAA26EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chefer.WebUI", "Chefer.WebUI\Chefer.WebUI.csproj", "{F346AFB7-FC9C-404C-89FB-D48F7311C38A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{1483E794-0D9A-4610-BA97-BAA0FBAA26EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1483E794-0D9A-4610-BA97-BAA0FBAA26EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1483E794-0D9A-4610-BA97-BAA0FBAA26EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F346AFB7-FC9C-404C-89FB-D48F7311C38A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F346AFB7-FC9C-404C-89FB-D48F7311C38A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F346AFB7-FC9C-404C-89FB-D48F7311C38A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F346AFB7-FC9C-404C-89FB-D48F7311C38A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
