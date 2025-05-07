@@ -25,6 +25,7 @@ namespace Chefer.API.Controllers
             return Ok(categories);
         }
 
+        //categories/3
 
         [HttpGet("{id}")]
         public IActionResult GetById(int id)

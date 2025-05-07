@@ -4,6 +4,7 @@ using Chefer.API.DTOs.ProductDtos;
 using Chefer.API.Entities;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace Chefer.API.Controllers
 {
@@ -23,7 +24,7 @@ namespace Chefer.API.Controllers
         [HttpGet]
         public IActionResult GetAll()
         {
-            var products = _context.Products.ToList();
+            var products = _context.Products.Include(x=>x.Category).ToList();
             return Ok(products);
         }
 
